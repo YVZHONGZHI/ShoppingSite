@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+        <meta charset="UTF-8">
+		<title>用户注册页面</title>
+		<link rel="stylesheet" href="css/w1.css">
+		<script type="text/javascript" src="js/w1.js"></script>
+	</head>
+	<body>
+		<div>
+			中  文  用  户  注  册  页  面
+		</div>
+		<form action="w2.html" method="post" id="w">
+			<table>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">
+						<label for="w1">用户名:</label>
+					</th>
+					<th colspan="9">
+						<input type="text" id="w1" name="username">
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">
+						<label for="w2">真实姓名:</label>
+					</th>
+					<th colspan="9">
+						<input type="text" id="w2" name="name">
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">性别:</th>
+					<th colspan="9">
+						<label for="w3">
+							<input type="radio" id="w3" name="w" value="male" checked="checked">
+							<span>男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+						</label>
+						<label for="w4">
+							<input type="radio" id="w4" name="w" value="female">
+							<span>女</span>
+						</label>
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">出生年月:</th>
+					<th colspan="9">
+						<select id="w5" name="w1">
+							<option value="option">请选择</option>
+						</select>
+						<label for="w5">年</label>
+						<select id="w6">
+							<option value="option">请选择</option>
+						</select>
+						<label for="w6">月</label>
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">
+						<label for="p">密码:</label>
+					</th>
+					<th colspan="9">
+						<input type="password" id="p" name="password">
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">
+						<label for="p1">确认密码:</label>
+					</th>
+					<th colspan="9">
+						<input type="password" id="p1" name="repassword">
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">
+						<label for="w7">手机:</label>
+					</th>
+					<th colspan="9">
+						<input type="text" id="w7" name="w2">
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="3">爱好:</th>
+					<th rowspan="3" colspan="9">
+						<label for="w8">
+							<input type="checkbox" id="w8" name="hobby" value="jogging">跑步&nbsp;
+						</label>
+						<label for="w9">
+							<input type="checkbox" id="w9" name="hobby" value="reading">看书&nbsp;
+						</label>
+						<label for="w10">
+							<input type="checkbox" id="w10" name="hobby" value="film">看电影<br /><br />
+						</label>
+						<label for="w11">
+							<input type="checkbox" id="w11" name="hobby" value="football">足球&nbsp;
+						</label>
+						<label for="w12">
+							<input type="checkbox" id="w12" name="hobby" value="volleyball">排球&nbsp;
+						</label>
+						<label for="w13">
+							<input type="checkbox" id="w13" name="hobby" value="shop">逛街&nbsp;&nbsp;&nbsp;
+						</label>
+					</th>
+				</tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr><th>&nbsp;</th></tr>
+				<tr>
+					<th colspan="4">
+						<input type="button" value="提  交" class="label1" onclick="judge()">
+					</th>
+					<th colspan="4">
+						<input type="reset" value="重  置" class="label2">
+					</th>
+					<th colspan="4">
+						<input type="submit" value="进  入  网  页" class="label2" form="w">
+					</th>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
